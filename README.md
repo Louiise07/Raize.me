@@ -1,2 +1,2 @@
 # Raize.me
-Meu app das plantas :D
+Nosso app das plantas :D
