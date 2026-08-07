@@ -1,2 +1,3 @@
-# Raize.me
-Nosso app das plantas :D
+
+O Raize.me é uma plataforma digital gamificada que transforma a participação em ações ambientais urbanas em uma experiência recompensadora. O problema central que resolve é o baixo engajamento da população no descarte correto de resíduos e em ações de limpeza pública — reflexo da ausência de incentivos imediatos e tangíveis. Segundo o TCE-PE (2025), menos de 2% do lixo produzido em Recife é reciclado. O app conecta moradores, turistas e comércios por meio de "missões urbanas" em tempo real, recompensando quem participa com Raize.Coins (Capibas) — moeda virtual conversível em descontos e benefícios junto a empresas parceiras.
+
