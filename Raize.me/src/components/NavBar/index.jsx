@@ -1,37 +1,36 @@
-import { FaStore } from "react-icons/fa";
-import { FaGift } from "react-icons/fa";
-import { FaHome } from "react-icons/fa";
+import { FaStore,FaGift, FaHome, FaRegUserCircle } from "react-icons/fa";
 import { FaBuildingColumns } from "react-icons/fa6";
-import { FaRegUserCircle } from "react-icons/fa";
+import './index.css';
 export default function NavBar() {
-    return
-    <> 
-     <div>
+    return(
+      <> 
+      <div>
       <nav className="bottom-nav">
 
         <button>
-          <FaStore size={22} />
+          <FaStore size={40} />
         </button>
 
         <button>
-          <FaGift size={22} />
+          <FaGift size={40} />
         </button>
 
         <button className="active">
-          <FaHome size={25} />
+          <FaHome size={40} />
         </button>
 
         <button>
-          <aBuildingColumns size={22} />
+          <FaBuildingColumns size={40} />
         </button>
 
         <button>
-          <FaRegUserCircle size={23} />
+          <FaRegUserCircle size={40} />
         </button>
 
       </nav>
      </div>
      
-
+     
     </>
+    )
 }

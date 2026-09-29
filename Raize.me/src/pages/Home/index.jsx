@@ -1,4 +1,5 @@
 import Header from '../../components/Header/index.jsx'
+import NavBar from '../../components/NavBar/index.jsx'
 import Quadrado from '../../components/Quadrado/index.jsx'
 
 export default function Home (){
@@ -12,12 +13,14 @@ export default function Home (){
             <div id="itens">
                      {misions.map((mision,index)=>(
                         <Quadrado
+                            key={mision.id}
                             id={mision.id}
                             blocked={mision.blocked}
                         />
                      ))}
             </div>
         </main>
+        <NavBar/>
         
         </>
     )
