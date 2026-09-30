@@ -7,7 +7,7 @@ export default function NavBar() {
       <div>
       <nav className="bottom-nav">
 
-        <button>
+        <button onClick={() => window.location.href = "/store"}>
           <FaStore size={40} />
         </button>
 
