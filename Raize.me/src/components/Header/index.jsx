@@ -9,6 +9,9 @@ export default function Header(){
             <button className="logout">
                  <p className="zen-dots-regular kkk">Super missões</p>
             </button>
+            <div className= "greebutton"> 
+                <p>.</p>
+            </div>
         </header>
     )
 }
