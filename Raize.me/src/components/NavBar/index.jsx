@@ -7,12 +7,12 @@ export default function NavBar() {
       <div>
       <nav className="bottom-nav">
 
-        <button onClick={() => window.location.href = "/store"}>
+        <button>
           <FaStore size={40} />
         </button>
 
         <button>
-          <FaGift size={40} />
+          <FaGift size={40}  onClick={() => window.location.href = "/ranking"} />
         </button>
 
         <button className="active">
