@@ -1,5 +1,5 @@
-import { FaStore,FaGift, FaHome, FaRegUserCircle } from "react-icons/fa";
-import { FaBuildingColumns } from "react-icons/fa6";
+import { FaStore, FaHome, FaRegUserCircle } from "react-icons/fa";
+import { FaBuildingColumns, FaRankingStar } from "react-icons/fa6";
 import './index.css';
 export default function NavBar() {
     return(
@@ -12,7 +12,7 @@ export default function NavBar() {
         </button>
 
         <button>
-          <FaGift size={40}  onClick={() => window.location.href = "/ranking"} />
+          <FaRankingStar size={40}  onClick={() => window.location.href = "/ranking"} />
         </button>
 
         <button className="active">
