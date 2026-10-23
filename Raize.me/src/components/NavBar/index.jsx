@@ -15,7 +15,9 @@ export default function NavBar() {
           <FaRankingStar size={40}  onClick={() => window.location.href = "/ranking"} />
         </button>
 
-        <button className="active">
+        <button className="active" 
+        onClick={() => window.location.href = "/home"} >
+          
           <FaHome size={40} />
         </button>
 

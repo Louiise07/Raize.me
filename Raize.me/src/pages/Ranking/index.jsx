@@ -77,10 +77,12 @@ export default function Ranking() {
                     <FaRankingStar size={32} />
                 </button>
 
-                <button>
-                    <FaHome size={32} />
-                </button>
-
+               <button className="active" 
+            onClick={() => window.location.href = "/home"} >
+          
+          <FaHome size={40} />
+        </button>
+                
                 <button>
                     <FaBuildingColumns size={32} />
                 </button>
