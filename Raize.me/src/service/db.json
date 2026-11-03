@@ -1,0 +1,31 @@
+{
+ "user": [
+        {"nome": "jubileu", "cpf":"12345678987", 
+        "email": "jubileuzinho@gmail.com", "xp": "50xp" , 
+        "ensing": "boareciclada", "quantityensing": "12", 
+        "moeda" : "raizecoin/capiba" , "quantitycoin": "200"}
+
+    ],
+
+    "Ranking": [
+        {"xp": "50xp", "nome": "jubileu", "medal": "first"}
+    ],
+
+    "Bank" : [
+        {"quantitycapiba": "60", "quantityraizecoin": "60"}
+    ],
+
+    "Store" : [
+         {"price": "5$" , "quantityproducts": "50", "discount": "15%", "nomedop": "perfume"}
+    ],
+
+    "Journal": [
+        {"news": "capiba vale 5 vezes do que a moeda da argentina"}
+    ],
+
+    "Products": [
+        {"nome":"fraldasmommypopo", "price":"9$", "quantity":"30", "id": "8r373", "category": "cosméticos"}
+    ]
+   
+}
+
