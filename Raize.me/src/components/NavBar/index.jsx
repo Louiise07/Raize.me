@@ -26,7 +26,7 @@ export default function NavBar() {
         </button>
 
         <button>
-          <FaRegUserCircle size={40} />
+          <FaRegUserCircle size={40}  onClick={() => window.location.href = "/perfil"}/>
         </button>
 
       </nav>

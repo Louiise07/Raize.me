@@ -1,0 +1,209 @@
+
+.perfil-content {
+    width: 100%;
+    max-width: 450px;
+  
+}
+
+
+/* TOPO */
+
+.perfil-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.perfil-avatar {
+    width: 90px;
+    height: 90px;
+
+    border: 3px solid #34412f;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 42px;
+
+    color: #34412f;
+    background-color: #eeeeee;
+}
+
+.perfil-notificacao {
+    position: absolute;
+
+    right: 5px;
+    top: 20px;
+
+    border: none;
+    background: none;
+
+    font-size: 34px;
+}
+
+.perfil-topo h2 {
+    font-size: 19px;
+    margin: 8px 0 0;
+}
+
+
+/* ESTATÍSTICAS */
+
+.perfil-estatisticas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 8px;
+
+    margin-bottom: 18px;
+}
+
+.estatistica {
+    height: 58px;
+
+    border: 1px solid #777;
+    border-radius: 10px;
+
+    background-color: #e0e0e0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.estatistica strong {
+    font-size: 17px;
+}
+
+.estatistica span {
+    font-size: 11px;
+}
+
+
+/* CONQUISTAS */
+
+.perfil-conquistas {
+    margin-bottom: 18px;
+}
+
+.conquistas-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.conquistas-titulo h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.conquistas-titulo button {
+    border: none;
+    background: none;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    color: #34412f;
+}
+
+.conquistas-lista {
+    display: flex;
+    gap: 12px;
+}
+
+.conquista {
+    flex: 1;
+    height: 85px;
+
+    border-radius: 6px;
+
+    background-color: #9ac5a5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #34412f;
+    font-size: 35px;
+}
+
+
+/* FORMULÁRIO */
+
+.perfil-form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.perfil-form label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.perfil-form input {
+    width: 100%;
+    height: 36px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 20px;
+
+    background-color: #c4ddc9;
+
+    padding: 0 13px;
+
+    font-size: 13px;
+    color: #222;
+}
+
+
+/* BOTÕES */
+
+.btn-salvar {
+    width: 100%;
+    height: 38px;
+
+    align-self: center;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: #2eaa62;
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    margin-top: 40px;
+
+    cursor: pointer;
+}
+
+.btn-sair {
+    width: 100%;
+    height: 36px;
+
+    align-self: center;
+
+    border: 1px solid #777;
+    border-radius: 20px;
+
+    background-color: #e0e0e0;
+
+    color: #222;
+
+    font-size: 13px;
+
+    cursor: pointer;
+}

@@ -1,31 +1,82 @@
+
 {
- "user": [
-        {"nome": "jubileu", "cpf":"12345678987", 
-        "email": "jubileuzinho@gmail.com", "xp": "50xp" , 
-        "ensing": "boareciclada", "quantityensing": "12", 
-        "moeda" : "raizecoin/capiba" , "quantitycoin": "200"}
+  "user": [
+    {
+      "id": 1,
+      "nome": "Jubileu",
+      "cpf": "12345678987",
+      "email": "jubileu@gmail.com",
+      "senha": "123456",
+      "xp": 450,
+      "nivel": 3,
+      "insignia": "boa_reciclada",
+      "quantitycoin": 5000,
+      "quantitycapiba": 12
+    }
+  ],
 
-    ],
+  "Missoes": [
+    {
+      "id": 1,
+      "nome": "Plante uma árvore",
+      "xp": 50,
+      "recompensa": 100,
+      "status": "disponivel"
+    },
+    {
+      "id": 2,
+      "nome": "Recicle seu lixo",
+      "xp": 30,
+      "recompensa": 60,
+      "status": "concluida"
+    }
+  ],
 
-    "Ranking": [
-        {"xp": "50xp", "nome": "jubileu", "medal": "first"}
-    ],
+  "Ranking": [
+    {
+      "nome": "Jubileu",
+      "xp": 450,
+      "medal": "first"
+    }
+  ],
 
-    "Bank" : [
-        {"quantitycapiba": "60", "quantityraizecoin": "60"}
-    ],
+  "Bank": [
+    {
+      "quantitycapiba": 12,
+      "quantityraizecoin": 5000
+    }
+  ],
 
-    "Store" : [
-         {"price": "5$" , "quantityproducts": "50", "discount": "15%", "nomedop": "perfume"}
-    ],
+  "Loja": [
+    {
+      "id": 1,
+      "nome": "Cupom de desconto",
+      "categoria": "cupons",
+      "preco": 100
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta",
+      "categoria": "roupas",
+      "preco": 250
+    }
+  ],
 
-    "Journal": [
-        {"news": "capiba vale 5 vezes do que a moeda da argentina"}
-    ],
+  "Fotos": [
+    {
+      "id": 1,
+      "missao": "Recicle seu lixo",
+      "imagem": "foto.png",
+      "status": "aprovada"
+    }
+  ],
 
-    "Products": [
-        {"nome":"fraldasmommypopo", "price":"9$", "quantity":"30", "id": "8r373", "category": "cosméticos"}
-    ]
-   
+  "Perfil": [
+    {
+      "userId": 1,
+      "missoesRealizadas": 2,
+      "conquistas": 3,
+      "nivel": 3
+    }
+  ]
 }
-
