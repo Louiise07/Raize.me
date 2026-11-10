@@ -42,7 +42,7 @@ export default function Mission() {
 
                     <img
                         src="/images/fazer-missao.png"
-                        alt="Pessoa apresentando uma missão"
+                        alt="missão"
                     />
 
                 </div>

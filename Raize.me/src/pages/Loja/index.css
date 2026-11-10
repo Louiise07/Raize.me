@@ -6,8 +6,7 @@
     height: 100dvh;
     min-height: 0;
 
-    background-color: #eeeeee;
-
+    
     display: flex;
     flex-direction: column;
 
