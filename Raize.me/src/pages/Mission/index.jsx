@@ -1,6 +1,6 @@
 
-import { useNavigate } from "react-router-dom";
-import { MdArrowBack } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
+import { MdArrowBack } from 'react-icons/md';
 
 import "./index.css";
 

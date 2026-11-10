@@ -1,7 +1,7 @@
 
 import { VscCheck } from "react-icons/vsc";
 import { VscChromeClose } from "react-icons/vsc";
-import "./index.css";
+import './index.css';
 
 export default function Quadrado({ id, blocked, onClick }) {
 
