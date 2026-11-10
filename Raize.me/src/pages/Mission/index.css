@@ -1,0 +1,132 @@
+.fazer-missao-page {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    background-color: #eeeeee;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABEÇALHO */
+
+.missao-header {
+    width: 100%;
+    height: 65px;
+    min-height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    border-top: 4px solid #34412f;
+}
+
+.missao-header h1 {
+    font-size: 21px;
+    font-weight: bold;
+
+    margin: 0;
+}
+
+.voltar-missao {
+    position: absolute;
+    left: 15px;
+
+    background: transparent;
+    border: none;
+
+    font-size: 27px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    color: #111;
+}
+
+/* CONTEÚDO */
+
+.missao-conteudo {
+    width: 100%;
+    max-width: 450px;
+
+    margin: 0 auto;
+
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 10px 15px 35px;
+}
+
+/* ILUSTRAÇÃO */
+
+.missao-ilustracao {
+    width: 100%;
+    height: 48%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.missao-ilustracao img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+/* TÍTULO */
+
+.missao-conteudo h2 {
+    font-size: 21px;
+    font-weight: 800;
+
+    text-align: center;
+
+    line-height: 1.05;
+
+    margin: 0;
+
+    color: #000;
+}
+
+/* BOTÃO */
+
+.btn-vamos-la {
+    width: 90%;
+    height: 46px;
+
+    background-color: #31ad63;
+
+    border: none;
+    border-radius: 12px;
+
+    color: white;
+
+    font-size: 21px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.btn-vamos-la:hover {
+    background-color: #258d50;
+}

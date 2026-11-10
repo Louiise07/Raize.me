@@ -1,0 +1,197 @@
+
+
+.loja-page {
+    width: 100%;
+    height: 10vh;
+    height: 100dvh;
+    min-height: 0;
+
+    background-color: #eeeeee;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loja-content {
+    width: 100%;
+    max-width: 450px;
+
+    margin: 0 auto;
+
+    flex:1;
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+/* CABEÇALHO */
+
+.loja-header {
+    width: 100%;
+    height: 85px;
+    min-height: 85px;
+
+    background-color: #c5ddca;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5px 15px;
+
+    flex-shrink: 0;
+}
+
+.loja-header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #111;
+}
+
+.loja-saldo {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-top: 10px;
+    padding: 0 3px;
+}
+
+.moeda-raize {
+    width: 30px;
+    height: 30px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+    border: 2px solid #34412f;
+
+    background-color: #e4e7d8;
+    color: #438044;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 17px;
+}
+
+/* ÁREA DAS CATEGORIAS */
+
+.loja-categorias {
+    width: 100%;
+
+    flex: 1;
+    min-height: 0;
+
+    padding: 35px 8px 12px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias-grid {
+    width: 100%;
+    height: 75%;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+
+    column-gap: 15px;
+    row-gap: 0;
+
+    align-items: center;
+}
+
+/* CATEGORIAS */
+
+.categoria-card {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    background: transparent;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+
+    padding: 0;
+
+    cursor: pointer;
+}
+
+/* ÍCONES GRANDES */
+
+.categoria-icone {
+    width: 100%;
+    height: 65px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 75px;
+
+    flex-shrink: 0;
+}
+
+.categoria-icone svg {
+    width: 75px;
+    height: 75px;
+}
+
+/* NOMES */
+
+.categoria-card span {
+    font-size: 12px;
+    color: #222;
+
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* DISPONÍVEIS */
+
+.categoria-card.disponivel {
+    color: #292929;
+}
+
+.categoria-card.disponivel:hover .categoria-icone {
+    transform: scale(1.08);
+}
+
+/* INDISPONÍVEIS */
+
+.categoria-card.indisponivel {
+    color: #b5b5b5;
+    cursor: not-allowed;
+}
+
+.categoria-card.indisponivel span {
+    color: #222;
+}
+
+/* SELECIONADA */
+
+.categoria-card.selecionada .categoria-icone {
+    color: #2eaa62;
+}
+
+

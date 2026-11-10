@@ -8,7 +8,7 @@ export default function NavBar() {
       <nav className="bottom-nav">
 
         <button>
-          <FaStore size={40} />
+          <FaStore size={40}  onClick={() => window.location.href = "/loja"} />
         </button>
 
         <button>
