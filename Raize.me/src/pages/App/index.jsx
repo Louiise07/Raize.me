@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import PWABadge from '../../components/PWABadge/index.jsx'
+import { useEffect } from 'react'
 import './index.css'
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
   return (
     <>
       <h1>Carregando...</h1>
-      <PWABadge />
     </>
   )
 }

@@ -2,7 +2,46 @@ import './index.css'
 
 import { useRegisterSW } from 'virtual:pwa-register/react'
 
+import { useEffect, useState } from 'react'
+
 function PWABadge() {
+  const [installPrompt, setInstallPrompt] = useState(null)
+  const [isInstalled, setIsInstalled] = useState(false)
+
+  useEffect(() => {
+    const standaloneMedia = window.matchMedia('(display-mode: standalone)')
+    setIsInstalled(
+      standaloneMedia.matches ||
+      window.navigator.standalone === true
+    )
+
+    const handleBeforeInstallPrompt = (event) => {
+      event.preventDefault()
+      setInstallPrompt(event)
+    }
+
+    const handleAppInstalled = () => {
+      setInstallPrompt(null)
+      setIsInstalled(true)
+    }
+
+    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
+    window.addEventListener('appinstalled', handleAppInstalled)
+
+    return () => {
+      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
+      window.removeEventListener('appinstalled', handleAppInstalled)
+    }
+  }, [])
+
+  async function installApp() {
+    if (!installPrompt) return
+
+    await installPrompt.prompt()
+    await installPrompt.userChoice
+    setInstallPrompt(null)
+  }
+
   // periodic sync is disabled, change the value to enable it, the period is in milliseconds
 // You can remove onRegisteredSW callback and registerPeriodicSync function
   const period = 0
@@ -35,6 +74,11 @@ function PWABadge() {
 
   return (
     <div className="PWABadge" role="alert" aria-labelledby="toast-message">
+      { installPrompt && !isInstalled && (
+        <button className="PWABadge-install-button" onClick={installApp}>
+          Instalar Raize.me
+        </button>
+      )}
       { (needRefresh)
       && (
         <div className="PWABadge-toast">

@@ -5,10 +5,12 @@ import Ranking from '../pages/Ranking/index.jsx'
 import Perfil from '../pages/Perfil/index.jsx'
 import Loja from '../pages/Loja/index.jsx'
 import Mission from '../pages/Mission/index.jsx'
+import PWABadge from '../components/PWABadge/index.jsx'
 
 export default function AppRoutes(){
     return(
         <Router>
+            <PWABadge />
             <Routes>
                 <Route path='/' element={<App />}/>
                 <Route path='/home' element={<Home />}/>
