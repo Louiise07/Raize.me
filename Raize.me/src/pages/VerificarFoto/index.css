@@ -1,0 +1,92 @@
+
+.verificar-page {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verificar-header {
+    height: 60px;
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-top: 4px solid #34412f;
+}
+
+.verificar-header h1 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.verificar-voltar {
+    position: absolute;
+    left: 15px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.verificar-conteudo {
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 20px;
+}
+
+.foto-preview {
+    width: 75%;
+    height: 270px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d6d6d6;
+    border-radius: 8px;
+
+    color: #555;
+    text-align: center;
+    font-size: 13px;
+}
+
+.foto-status {
+    width: 100%;
+    min-height: 42px;
+
+    margin-top: 20px;
+    padding: 8px 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    background-color: #d8ded8;
+    border-radius: 20px;
+
+    color: #245d2c;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.foto-status svg {
+    font-size: 19px;
+}

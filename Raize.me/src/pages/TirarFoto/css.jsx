@@ -1,0 +1,88 @@
+
+.foto-page {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto-header {
+    height: 60px;
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    border-top: 4px solid #34412f;
+}
+
+.foto-header h1 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.foto-voltar {
+    position: absolute;
+    left: 15px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.foto-conteudo {
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 18px 30px;
+}
+
+.camera-reservada {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d6d6d6;
+    border-radius: 8px;
+
+    color: #555;
+    text-align: center;
+}
+
+.btn-foto {
+    width: 90%;
+    height: 48px;
+    min-height: 48px;
+
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #31ad63;
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
