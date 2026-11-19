@@ -12,26 +12,44 @@ export default defineConfig({
       name: 'Raize.me',
       short_name: 'Raize.me',
       description: 'Raize.me',
-      theme_color: '#ffffff',
-
-      icons: [{
-        src: 'pwa-64x64.png',
-        sizes: '64x64',
-        type: 'image/png',
-      }, {
-        src: 'pwa-192x192.png',
-        sizes: '192x192',
-        type: 'image/png',
-      }, {
-        src: 'pwa-512x512.png',
-        sizes: '512x512',
-        type: 'image/png',
-      }, {
-        src: 'maskable-icon-512x512.png',
-        sizes: '512x512',
-        type: 'image/png',
-        purpose: 'maskable',
-      }],
+      start_url: '/',
+      scope: '/',
+      display: 'standalone',
+      lang: 'en',
+      background_color: '#ffffff',
+      theme_color: '#E4F4D5',
+      icons: [
+        {
+          src: '/icons/icon-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'any',
+        },
+        {
+          src: '/icons/icon-384x384.png',
+          sizes: '384x384',
+          type: 'image/png',
+          purpose: 'any',
+        },
+        {
+          src: '/icons/icon-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any',
+        },
+        {
+          src: '/icons/icon-192x192-maskable.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'maskable',
+        },
+        {
+          src: '/icons/icon-512x512-maskable.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'maskable',
+        },
+      ],
     },
 
     workbox: {

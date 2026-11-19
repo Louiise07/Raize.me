@@ -1,9 +1,11 @@
 {
   "name": "Raize.me",
   "short_name": "Raize.me",
-  "description": "A Progressive Web App",
+  "description": "Raize.me",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "lang": "en",
   "background_color": "#ffffff",
   "theme_color": "#E4F4D5",
   "icons": [
