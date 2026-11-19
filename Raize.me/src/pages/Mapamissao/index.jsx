@@ -34,7 +34,7 @@ export default function MapaMissao() {
 
                 <button
                     className="btn-registrar"
-                    onClick={() => navigate("/tirar-foto")}
+                    onClick={() => navigate("/tirarfoto")}
                 >
                     REGISTRAR
                 </button>

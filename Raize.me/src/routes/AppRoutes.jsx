@@ -6,7 +6,7 @@ import Perfil from '../pages/Perfil/index.jsx'
 import Loja from '../pages/Loja/index.jsx'
 import Mission from '../pages/Mission/index.jsx'
 import VerificarFoto from '../pages/VerificarFoto/index.jsx'
-import TirarFoto from '../pages/Tirarfoto/index.jsx'
+import TirarFoto from '../pages/TirarFoto/index.jsx'
 import Mapamissao from '../pages/Mapamissao/index.jsx'
 import PWABadge from '../components/PWABadge/index.jsx'
 

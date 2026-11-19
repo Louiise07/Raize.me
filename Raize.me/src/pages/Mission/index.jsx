@@ -13,7 +13,7 @@ export default function Mission() {
     }
 
     function iniciarMissao() {
-        navigate("/mapa-missao");
+        navigate("/mapamissao");
     }
 
     return (

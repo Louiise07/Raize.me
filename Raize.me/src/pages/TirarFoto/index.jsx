@@ -29,7 +29,7 @@ export default function TirarFoto() {
 
                 <button
                     className="btn-foto"
-                    onClick={() => navigate("/verificar-foto")}
+                    onClick={() => navigate("/verificarfoto")}
                 >
                     CONTINUAR
                 </button>

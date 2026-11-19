@@ -1,7 +1,5 @@
 
-* {
-    box-sizing: border-box;
-}
+
 
 .mapa-page {
     width: 100%;
@@ -11,9 +9,8 @@
     display: flex;
     flex-direction: column;
 
-    overflow: hidden;
+    
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #eeeeee;
 }
 
 /* CABEÇALHO */
@@ -33,7 +30,7 @@
 
 .mapa-header h1 {
     font-size: 18px;
-    margin: 0;
+   
 }
 
 .mapa-voltar {
@@ -64,12 +61,12 @@
     flex-direction: column;
     align-items: center;
 
-    padding: 15px 18px 25px;
+    
 }
 
 .mapa-conteudo h2 {
     width: 100%;
-    margin: 0 0 15px;
+    
 
     text-align: center;
     font-size: 19px;
