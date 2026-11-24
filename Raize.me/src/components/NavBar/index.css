@@ -1,9 +1,10 @@
-.bottom-nav{
+
+.bottom-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: clamp(65px, 10vh, 100px);
     border: 2px solid #65735d;
     border-bottom: none;
     border-radius: 40px 40px 0 0;
@@ -11,12 +12,40 @@
     align-items: center;
     justify-content: space-around;
     z-index: 1000;
-    
+    background-color: white;
 }
 
-.bottom-nav button{
+.bottom-nav button {
     background: none;
     border: none;
     width: 20%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .bottom-nav {
+        height: 70px;
+        border-radius: 25px 25px 0 0;
+    }
+
+    .bottom-nav button svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .bottom-nav {
+        height: 80px;
+    }
+
+    .bottom-nav button svg {
+        width: 34px;
+        height: 34px;
+    }
 }

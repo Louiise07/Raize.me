@@ -1,38 +1,35 @@
+
 import { FaStore, FaHome, FaRegUserCircle } from "react-icons/fa";
 import { FaBuildingColumns, FaRankingStar } from "react-icons/fa6";
 import './index.css';
+
 export default function NavBar() {
-    return(
-      <> 
-      <div>
-      <nav className="bottom-nav">
+    return (
+        <nav className="bottom-nav">
 
-        <button>
-          <FaStore size={40}  onClick={() => window.location.href = "/loja"} />
-        </button>
+            <button onClick={() => window.location.href = "/loja"}>
+                <FaStore />
+            </button>
 
-        <button>
-          <FaRankingStar size={40}  onClick={() => window.location.href = "/ranking"} />
-        </button>
+            <button onClick={() => window.location.href = "/ranking"}>
+                <FaRankingStar />
+            </button>
 
-        <button className="active" 
-        onClick={() => window.location.href = "/home"} >
-          
-          <FaHome size={40} />
-        </button>
+            <button
+                className="active"
+                onClick={() => window.location.href = "/home"}
+            >
+                <FaHome />
+            </button>
 
-        <button>
-          <FaBuildingColumns size={40} />
-        </button>
+            <button>
+                <FaBuildingColumns />
+            </button>
 
-        <button>
-          <FaRegUserCircle size={40}  onClick={() => window.location.href = "/perfil"}/>
-        </button>
+            <button onClick={() => window.location.href = "/perfil"}>
+                <FaRegUserCircle />
+            </button>
 
-      </nav>
-     </div>
-     
-     
-    </>
-    )
+        </nav>
+    );
 }

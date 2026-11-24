@@ -1,0 +1,62 @@
+
+/* RESET GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    overflow-x: hidden;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+/* IMAGENS RESPONSIVAS */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BOTÕES */
+button {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+/* TELAS MENORES */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* TABLETS */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* COMPUTADORES */
+@media (min-width: 769px) {
+    body {
+        font-size: 16px;
+    }
+}

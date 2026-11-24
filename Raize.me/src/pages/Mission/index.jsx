@@ -40,17 +40,17 @@ export default function Mission() {
                 {/* ILUSTRAÇÃO */}
                 <div className="missao-ilustracao">
 
-                    <img
-                        src="/images/fazer-missao.png"
-                        alt="missão"
-                    />
+                  <img
+    src="https://aparasliberdade.com.br/wp-content/uploads/2024/04/AdobeStock_39031314.webp"
+    alt="Latinhas de alumínio para reciclagem"
+/>
 
                 </div>
 
 
                 {/* TÍTULO DA MISSÃO */}
                 <h2>
-                    PLANTE UMA ÁRVORE
+                    RECLICE 5 LATAS DE ALUMÍNIO
                     <br />
                     E REGISTRE
                 </h2>
